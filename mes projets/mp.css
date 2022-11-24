@@ -1,6 +1,8 @@
 body{
     background-image: url(mp1.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 h2{
     text-align: center;
@@ -11,7 +13,7 @@ margin-block: 15%;
 flex-basis: 20%;
 width: 40%;
 border-radius: 2%;
-border-style: dotted;
+border-style: ridge;
 text-align: center;
 text-decoration: double;
 background-color: white;

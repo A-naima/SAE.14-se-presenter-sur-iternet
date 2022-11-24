@@ -13,6 +13,7 @@ html{
 h2{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 h1{
     
@@ -47,42 +48,40 @@ color: black;
     
 }
 aside{
+    padding: 5px;
+    flex-wrap: wrap;
     color: white;
-    margin-block: 5%;
-    flex-basis: 25%;
-    width: 25%;
-    text-align: center;
-    border-style: groove;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: outset;
     border-color: black;
-    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 35px;
+ 
+
 }
 aside p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 div{
-    display: flex;
+    padding: 3px;
     flex-wrap: wrap;
-    padding-right: 10%;
-    border-radius: 5%;
-    border-style: dotted;
+    background-color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-style: outset;
     border-color: black;
-    color: black;
-    background-color: whitesmoke;
-    text-decoration: solid;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
 }
 
-article{
-    border-style: double;
-    width: 30%;
-    display: block;
-    float: right;
-    clear: right;
-    float: top;
-}
 marquee{
     display: flex;
     flex-wrap: wrap;
     padding-right: 10%;
+    margin-left: 200px;
 
 }

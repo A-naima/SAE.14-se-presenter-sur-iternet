@@ -1,25 +1,61 @@
+html{
+    background-image: url(image\ de\ fond.jpg);
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+}
+
+
 h2{
-    color: rgb(32, 32, 32);
-    background-color: rgba(190, 189, 190, 0.425);
-    border-radius: 5px;
+    color: white;
     text-align: center;
     font-family: Verdana, Geneva, sans-serif;
-    margin: 1%;
-}
-nav a{
-    background-color: rgb(187, 184, 187);
-    border-radius: 5px;
-    margin: 1px;
-    width: 100px;
-    display: inline-block;
-    text-align: center;
-    padding-bottom: 5px;
-    border-style: outset;
-    border-color: whitesmoke;
-}
-nav{
-    padding: 2%;
 }
 title{
     font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    margin: 8%;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 2px;
+    border-style: double;
+    border-color: black;
+    padding: 45px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    
+    font-style: inherit;
+}
+nav a{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 2px;
+    border-style: outset;
+    border-color: black;
+}
+nav{
+    padding: 40px;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: double;
+    font-style: inherit;
+    border-color: black;
+}
+section{
+    margin: 8%;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 2px;
+    border-style: double;
+    border-color: black;
+    padding: 45px;
+    margin-left: 15%;
+    margin-right: 15%;
+  color: white;
+    font-style: inherit;
 }
