@@ -1,15 +1,32 @@
+html{
+    background-image: url(image\ de\ fond.jpg);
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+}
+
 h2{
-    color: rgb(32, 32, 32);
+    color: rgb(5, 5, 5);
     text-align: center;
     font-family: Verdana, Geneva, sans-serif;
 }
 title{
     font-family: Arial, Helvetica, sans-serif;
 }
+div{
+    margin: 10%;
+    border-radius: 3%;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 1%;
+    border-style: double;
+    border-color: black;
+    padding: 15px;
+    background-color: gainsboro;
+    font-style: inherit;
+}
 nav a{
     background-color: rgb(187, 184, 187);
     border-radius: 5px;
-    margin: 1px;
     width: 100px;
     display: inline-block;
     text-align: center;
@@ -18,17 +35,24 @@ nav a{
     border-color: aliceblue;
 }
 nav{
-    padding: 3%;
+    padding: 5%;
     flex-wrap: wrap;
-    background-color: antiquewhite;
+    background-color: gainsboro;
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
     border-style: outset;
+    font-style: inherit;
 }
-div{
-    flex-basis: 25%;
+section{
+    margin: 10%;
+    border-radius: 3%;
+    display: inline-block;
     text-align: center;
-    flex-wrap: wrap;
-    width: 30%;
+    padding-bottom: 1%;
+    border-style: double;
+    border-color: black;
+    padding: 15px;
+    background-color: gainsboro;
+    font-style: inherit;
 }

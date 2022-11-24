@@ -12,6 +12,7 @@ html{
 }
 h2{
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1{
     
@@ -20,40 +21,68 @@ h1{
     font-family: Verdana, Geneva, sans-serif;
     margin: 15%;
 }
+h3{
+    text-decoration-line: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 nav{
     padding: 3%;
     flex-wrap: wrap;
     background-color: white;
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     border-style: outset;
+    border-color: black;
 }
 nav a{
  padding: 3%;
  flex-wrap: wrap;
- background-color: whitesmoke;
+color: black;
  text-align: center;
- border-color: azure;
+ border-color: black;
  border-style: outset;
+ font-weight: bold;
     
 }
 aside{
- 
+    color: white;
+    margin-block: 5%;
     flex-basis: 25%;
     width: 25%;
     text-align: center;
+    border-style: groove;
+    border-color: black;
+    font-style: oblique;
 }
 aside p{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
- h3{
-        text-decoration-line: underline;
-}
-
-
 div{
     display: flex;
     flex-wrap: wrap;
+    padding-right: 10%;
+    border-radius: 5%;
+    border-style: dotted;
+    border-color: black;
+    color: black;
+    background-color: whitesmoke;
+    text-decoration: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article{
+    border-style: double;
+    width: 30%;
+    display: block;
+    float: right;
+    clear: right;
+    float: top;
+}
+marquee{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10%;
+
 }
